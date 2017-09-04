@@ -90,7 +90,8 @@ def jugar(mazo, casa, jugador):
 				print("<<<GANASTE>>>")
 			if valor_mano(jugador)>21:
 				print(">>>PERDISTE<<<")					
-					
+
+print("JUEGA 21")					
 jugar(generar_mazo(),[],[])
 
 
